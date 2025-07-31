@@ -1,0 +1,12 @@
+# Arquivo .gitignore
+
+# 1. Ignorar o arquivo com as senhas
+config.py
+
+# 2. Ignorar a pasta do ambiente virtual do Python (muito importante)
+venv/
+.venv/
+
+# 3. Ignorar as pastas de cache do Python
+__pycache__/
+*.pyc
